@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg_gradient"
+    tools:context=".SelectionCategory">
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="121dp"
+        android:text="Select Category"
+        android:textSize="40dp" />
+
+
+    <Button
+        android:id="@+id/buttonSelectionStudent"
+        android:layout_width="129dp"
+        android:layout_height="110dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="40dp"
+        android:layout_marginStart="40dp"
+        android:background="@drawable/stud_button"
+        android:text="Commuter"
+        android:textColor="#ffff"
+        android:textSize="20dp"
+        tools:layout_editor_absoluteX="139dp"
+        tools:layout_editor_absoluteY="103dp" />
+
+    <Button
+        android:id="@+id/buttonSelectionFaculty"
+        android:layout_width="110dp"
+        android:layout_height="110dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:layout_marginEnd="49dp"
+        android:layout_marginRight="49dp"
+        android:background="@drawable/stud_button"
+        android:text="Admin"
+        android:textColor="#ffff"
+        android:textSize="20dp"
+        tools:layout_editor_absoluteX="139dp"
+        tools:layout_editor_absoluteY="103dp" />
+
+    <Button
+        android:id="@+id/buttonSelectionNGO"
+        android:layout_width="110dp"
+        android:layout_height="110dp"
+        android:layout_below="@+id/buttonSelectionStudent"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="11dp"
+        android:background="@drawable/stud_button"
+        android:text="Guest"
+        android:textColor="#ffff"
+        android:textSize="20dp"
+        tools:layout_editor_absoluteX="139dp"
+        tools:layout_editor_absoluteY="103dp" />
+</RelativeLayout>

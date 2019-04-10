@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".RegisterActivity"
+    android:background="@drawable/bg_gradient">
+
+    <RelativeLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:orientation="vertical"
+        android:id="@+id/relativeLayout">
+
+
+    </RelativeLayout>
+
+    <Button
+        android:id="@+id/buttonRegisterRegister"
+        android:layout_width="191dp"
+        android:layout_height="46dp"
+        android:layout_above="@+id/textViewRegisterLogIn"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="20dp"
+        android:text="Register"
+        android:background="@drawable/button_signin"
+        tools:layout_editor_absoluteX="97dp"
+        android:textColor="#fff"
+        tools:layout_editor_absoluteY="382dp" />
+
+    <TextView
+        android:id="@+id/textViewRegisterLogIn"
+        android:layout_width="368dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginBottom="18dp"
+        android:text="Already have an account?"
+        android:textAlignment="center"
+        android:textSize="20dp"
+        android:textColor="#000"
+        tools:layout_editor_absoluteX="8dp"
+        tools:layout_editor_absoluteY="458dp" />
+
+    <EditText
+        android:id="@+id/editTextRegisterPasswordConfirm"
+        android:layout_width="340dp"
+        android:layout_height="45dp"
+        android:background="@drawable/textview"
+        android:layout_above="@+id/buttonRegisterRegister"
+        android:layout_alignLeft="@+id/editTextRegisterPassword"
+        android:layout_alignStart="@+id/editTextRegisterPassword"
+        android:layout_marginBottom="23dp"
+        android:padding="12dp"
+        android:hint="Re-enter Password"
+        android:inputType="textPassword"
+        tools:layout_editor_absoluteX="8dp"
+        tools:layout_editor_absoluteY="313dp" />
+
+    <EditText
+        android:id="@+id/editTextRegisterPassword"
+        android:layout_width="340dp"
+        android:layout_height="45dp"
+        android:layout_above="@+id/editTextRegisterPasswordConfirm"
+        android:layout_alignLeft="@+id/editTextRegisterEmail"
+        android:layout_alignStart="@+id/editTextRegisterEmail"
+        android:layout_marginBottom="13dp"
+        android:background="@drawable/textview"
+        android:hint="Password"
+        android:inputType="textPassword"
+        android:padding="12dp"
+        tools:layout_editor_absoluteX="8dp"
+        tools:layout_editor_absoluteY="257dp" />
+
+    <EditText
+        android:id="@+id/editTextRegisterCell"
+        android:layout_width="340dp"
+        android:layout_height="45dp"
+        android:layout_above="@+id/editTextRegisterEmail"
+        android:layout_alignLeft="@+id/editTextRegisterName"
+        android:layout_alignStart="@+id/editTextRegisterName"
+        android:layout_marginBottom="21dp"
+        android:background="@drawable/textview"
+        android:hint="Mobile"
+        android:inputType="number"
+        android:padding="12dp"
+        tools:layout_editor_absoluteX="8dp"
+        tools:layout_editor_absoluteY="145dp" />
+
+    <EditText
+        android:id="@+id/editTextRegisterEmail"
+        android:layout_width="340dp"
+        android:layout_height="45dp"
+        android:layout_above="@+id/editTextRegisterPassword"
+        android:layout_alignLeft="@+id/editTextRegisterCell"
+        android:layout_alignStart="@+id/editTextRegisterCell"
+        android:layout_marginBottom="19dp"
+        android:background="@drawable/textview"
+        android:hint="Username"
+        android:inputType="textEmailAddress"
+        android:padding="12dp"
+        tools:layout_editor_absoluteX="8dp"
+        tools:layout_editor_absoluteY="202dp" />
+
+    <EditText
+        android:id="@+id/editTextRegisterName"
+        android:layout_width="340dp"
+        android:layout_height="45dp"
+        android:layout_above="@+id/editTextRegisterCell"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="24dp"
+        android:background="@drawable/textview"
+        android:hint="Full Name"
+        android:padding="12dp"
+        tools:layout_editor_absoluteX="8dp"
+        tools:layout_editor_absoluteY="84dp" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/editTextRegisterName"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="47dp"
+        android:text="CREATE NEW ACCOUNT"
+        android:textAlignment="center"
+        android:textColor="#000"
+        android:textSize="23dp" />
+
+</RelativeLayout>

@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "4899982844",
+    "firebase_url": "https://commutersafety-710c1.firebaseio.com",
+    "project_id": "commutersafety-710c1",
+    "storage_bucket": "commutersafety-710c1.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:4899982844:android:34822ca647311fa0",
+        "android_client_info": {
+          "package_name": "com.example.lenovo.commutersafety"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "4899982844-qomhv9rcsk3ggf4ca9is9rettk2khu3o.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCsBtFhuYs-TQ_-nq2lFmAtF-SNTZI6fz0"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
